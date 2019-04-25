@@ -11,6 +11,7 @@ import paquetedos.*;
  *
  * @author rober
  */
+// Por Roberto Narvaez
 public class SeleccionAnidada {
 
     /**
@@ -25,7 +26,7 @@ public class SeleccionAnidada {
         System.out.println("Por favor ingrese su calificacion: ");
         calificacion = entrada.nextInt();
                 
-        
+        //  salida de datos
         if (calificacion >= 90){
             System.out.printf("%s(excelente) con %d\n", miMensaje, calificacion);
         } else {
@@ -38,7 +39,7 @@ public class SeleccionAnidada {
                 if (calificacion <50 ) {
                      System.out.printf("%s con %d\n",miMensaje2, calificacion);
                 }   
-                }
+               }
             }
         }
         
