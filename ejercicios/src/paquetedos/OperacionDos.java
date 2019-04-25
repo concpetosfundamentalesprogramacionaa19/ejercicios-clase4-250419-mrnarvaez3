@@ -9,8 +9,8 @@ package paquetedos;
  *
  * @author rober
  */
-public class Operacion {
-   public static String mensaje = "USted esta aprobado con:";
-   public static String mensaje2 = "Usted esta reprobado con:";
+public class OperacionDos {
+   public static String mensaje = "Usted esta aprobado ";
+   public static String mensaje2 = "Usted esta reprobado ";
     
 }
